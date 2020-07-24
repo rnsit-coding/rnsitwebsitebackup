@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Cabin:300,400,500,600');
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+body, html,.container-custom, div, span{
+	font-family: 'Cabin' , sans-serif;
+	font-weight: 400;
+  font-size:16px !important;
+}
+
+.side-nav{
+  z-index:999;
+}
+
+h1, h2, h3, h4, h5,h6{
+	font-family: 'Cabin', sans-serif;
+	font-weight: 700;
+}
+#logo{
+	width: 300px;
+}
+.slide{
+	background-image: url('../images/home/ground.jpg') !important;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: center !important;
+}
+.slide1{
+	background-image: url('../images/home/block1.jpg') !important;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: linear-gradient(left, #fff, #eee);
+}
+.slide2{
+	background-image: url('../images/home/block2.jpg') !important;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: center !important;
+}
+.slide3{
+	background-image: url('../images/home/block3.jpg') !important;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: center !important;
+}
+.body
+{
+	text-align: justify;
+}
+.hidden{
+	opacity: 0;
+}
+/* rnsit brand text */
+.brand-logo{
+  font-family: "Raleway";
+  font-weight: 700;
+  margin-left:5px;
+}
+.svg-logo,.brand-logo{
+	transition: all .3s;
+}
+.iframes{
+	width: 100%;
+	height: 100%;
+}
+.datep{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 300;
+	font-style:
+}
+.mainimage{
+	position: relative;
+}
+.videos{
+	box-shadow: none !important;
+}
+h3.rns-head{
+	font-family: 'Cabin', sans-serif;
+  font-size: 36px;
+}
+
+.rns-head{
+  font-size: 21px;
+}
+
+
+.iframes{
+	width: 100%;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
+	height: 100%;
+}
+.hero{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.footer-copyright{
+	padding: 0;
+	margin: 0;
+}
+.lool{
+	margin-bottom: 0;
+}
+.event-head{
+	box-shadow: 0 5px 20px 2px rgba(0,0,0,0.1);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 15px;
+	font-size: 1.7em;
+	font-weight: bold;
+	color:black !important;
+
+}
+.events-scroll a{
+	height: 	100%;
+}
+.events-scroll{
+	position: 	relative;
+	height: calc(100% - 54px);
+	overflow-y: scroll;
+}
+.nightback{
+  background-image: url('../images/home/hero.jpg');
+  transition: background-position .4s;
+  height: 100%;
+  width: 100%;
+  transition: background-image 1s;
+  position: absolute;
+  /*top:-160px;*/
+  background-size: cover;
+  z-index:-1;
+  filter: brightness(1);
+  background-repeat: no-repeat;
+}
+.flexed{
+	display: flex;
+	justify-content: space-between	;
+	height: 	60vh;
+	margin-bottom: 	40px;
+}
+.up-events{
+	position: relative;
+	height: 500px;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
+	margin-bottom: 	40px;
+}
+.up-events-slide{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	overflow-x: hidden;
+}
+.container-custom{
+	width: 	90%;
+	margin-left: 	auto;
+	margin-right: 	auto;
+}
+#about{
+	margin-bottom: 	20px;
+}
+
+.events{
+	width: 35%;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
+}
+.camp-video{
+	width: 60%;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
+}
+
+/* carousel */
+.carousel{
+  margin:100px auto auto !important;
+}
+
+.carousel img{
+  width: 500px;
+  height: 450px;
+  filter:brightness(110%);
+}
+
+.carousel-item{
+  width: 500px !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+  height: 450px !important;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.maincont{
+	position: relative;
+	text-align: center;
+	color:white;
+	overflow: hidden;
+}
+.cont{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width:100vw;
+
+}
+.con-flex{
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
+	height:40vh;
+	width:44%;
+	margin-bottom: 40px;
+}
+.navin{
+	background:rgba(2, 27, 56, 0 ) !important;
+}
+
+.video{
+	height:auto;
+}
+@media only screen and (max-width: 480px){
+  .carousel{
+    padding: 0;
+    width: 95% !important;
+    margin: -50px auto !important;
+  }
+  .carousel img{
+    width: 100% !important;
+    height: 200px !important;
+  }
+.carousel-item{
+  width: 70% !important;
+  height: 200px !important;
+}
+
+.camp-video{
+  height: 300px !important;
+}
+.parichay1{
+	background-size: contain !important;
+}
+	.up-events{
+		height: 250px;
+    width: 90% !important;
+	}
+	.con-flex{
+		width: 92% !important;
+	}
+
+
+}
+
+.changers a{
+	cursor: 	pointer;
+	margin: 10px;
+}
+
+.event-a{
+	flex-shrink: 0;
+	padding-top: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: hidden;
+	transition: transform 1s ease-out;
+}
+.events{
+	position: relative;
+	overflow-y: hidden;
+}
+@media only screen and (max-width: 768px){
+  .brand-logo{
+    margin-left: 0px !important;
+  }
+		.parichay{
+	background-image: url('../images/vint.html') !important;
+	background-position: 0px 0px;
+}
+.parichay1{
+	background-size: contain !important;
+	}
+		.flexed{
+		flex-wrap: wrap;
+		height: auto;
+}
+	.camp-video{
+		width: 100%;
+    margin: 50px auto 0;
+		height: 500px;
+	}
+	.events{
+		width: 100%;
+		height: 400px;
+		margin-bottom: 20px;
+	}
+	.up-events{
+		width: 90%;
+	}
+
+	.con-flex{
+		width: 92% !important;
+	}
+		.nightback{
+background-position: center;
+background-image: linear-gradient(rgba(0, 0, 0 , 0.2),rgba(0, 0, 0, 0.3)),url('../images/home/hero.jpg');
+	}
+
+}
+
+
+.upcoming-event{
+	position: relative;
+	height: 100%;
+	/*top: -12px;*/
+}
+.changers{
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+}
+.changers a{
+	background-color: #fff;
+  opacity: 0.7;
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+.active-eve-a{
+	background: #021B38 !important;
+  opacity: 1 !important;
+}
+.text-slide{
+	position: absolute;
+	color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.event-background{
+	background-image: url(../images/night1.jpg);
+	background-size: cover;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+.news{
+	overflow-y: hidden;
+}
+.events-scroll a{
+	color : black !important;
+}
+.newscards{
+	padding-left: 	20px;
+	width: 100%;
+	padding-top: 	10px;
+	color: black;
+/*		border-top-width: 1px;
+	border-top-color: #888;
+	border-top-style: solid;*/
+	border-bottom-width: 1px;
+	border-bottom-color: #888;
+	border-bottom-style: solid;
+	/*animation: newsscroll 30s infinite;*/
+}
+
+.newscards:hover{
+		background-color: 	#e3f2fd;
+}
+
+
+.newscards h6{
+	margin-top: 	0px;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+ /* your css rules for ipad portrait */
+
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+/* your css rules for ipad landscape */
+}
+#lastmodipara{
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+}
